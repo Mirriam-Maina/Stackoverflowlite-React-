@@ -4,14 +4,15 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p"
   },
   "keywords": [],
-  "repository": "https://github.com/mmosoroohh/Frontend_stackoverflow.git",
-  "author": "Arnold Osoro",
+  "repository": "https://github.com/Mirriam-Maina/Stackoverflowlite-React-.git",
+  "author": "Mirriam Maina",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+  },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "axios": "^0.18.0",
